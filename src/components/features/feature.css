@@ -1,0 +1,57 @@
+/* h6, p Tags */
+.feat {
+    color: #4a5568 !important;
+    text-align: left;
+    width: 16.8rem;
+    letter-spacing: -0.9px;
+    margin-left: 3rem;
+} p.feat { font-size: 0.9rem; }
+
+.box {
+    padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 760px) {
+    .feat {
+        width: auto;
+    }
+}
+
+
+@font-face {
+    font-family: icomoon;
+    src: url('../../../node_modules/icomoon-free-npm/Font/IcoMoon-Free.ttf');
+}
+
+/* IcoMoon Icons Styling, Default Settings caught from Offical Website */
+.uniform-height .box i, .uniform-height .box:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    /* left: -3rem; */
+    left: 0rem;
+    /* top: .75rem; */
+    width: 3.25rem;
+    height: 3.25rem;
+    line-height: 3.25rem;
+    background: #168bb9;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    font-size: 1.75rem;
+}
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    /* speak: none; */
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+}
+.icon-shuffle:before    { content: "\ea30"; }
+.icon-download3:before  { content: "\e9c7"; }
+.icon-equalizer:before  { content: "\e992"; }
+.icon-power-cord:before { content: "\e9b7"; }
+.icon-enlarge:before    { content: "\e989"; }
+.icon-dice:before       { content: "\e915"; }

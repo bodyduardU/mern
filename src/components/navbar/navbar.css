@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Georgia;
+    src: url('../../assets/fonts/georgiab.ttf') format("truetype");
+}
+
+.navbar {
+    background-color: #212529 !important;
+    text-align: left;
+}
+
+
+/* Jenkins Heading */
+.navbar-brand {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white !important;
+}
+
+
+/* Elements on Navbar */
+.nav-link {
+    color: gray !important;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: rgb(196, 193, 193) !important;
+}
+
+.nav-link:focus {
+    color: whitesmoke !important;
+}
+
+.dropdown-item {
+    font-size: 0.9em;
+}
+
+
+/* Download Button */
+.btn-outline-secondary {
+    color: rgb(196, 193, 193) !important;
+    margin: -1px 10px 5px 5px;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #31363b !important;
+}
+
+
+/* cd.foundation Logo (Direct Target Image) */
+img {
+    width: 25px;
+    height: 17px;
+}
+
+
+/* cd.foundation Logo (Target Link) */
+.cd {
+    margin-top: -25px;
+}
+
+
+/* Search Input */
+.form-control {
+    height: 33px;
+    margin-top: 1.5px;
+}

@@ -1,0 +1,157 @@
+.events .ji-item-list>.event>a {
+    width: 16rem;
+    padding: .75rem;
+    margin: 1rem .25rem .25rem;
+    white-space: normal;
+    text-decoration: none;
+}
+
+.ji-item-list, .ji-item-list>.post>.body {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 0 15px 0 15px;
+    list-style: none;
+    font-size: 1rem;
+}
+
+.title {
+    color: #006699 !important;
+    font-weight: normal;
+    padding-bottom: 1.3em;
+}
+
+a {
+    color: #006699;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: normal;
+}
+
+.teaser {
+    color: #4a5568 !important;
+}
+
+.events .ji-item-list {
+    text-align: center;
+    white-space: nowrap;
+    overflow: visible;
+    overflow-x: auto;
+    overflow-y: visible;
+    border-bottom: 1px solid #ccc;
+    vertical-align: top;
+}
+
+.date-time>.date>.dow {
+    display: block;
+    position: absolute;
+    bottom: -1.1em;
+    left: -1em;
+    right: -1.15em;
+    font-size: 6em;
+    font-family: 'arial narrow';
+    font-weight: bolder;
+    color: rgba(0,0,0,.15);
+    text-align: center;
+}
+
+.date-time>.date>* {
+    display: inline;
+}
+
+div {
+    display: block;
+}
+
+.date-time>.date {
+    font-size: .75em;
+    font-weight: normal;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding: .5em 0 .25em;
+    background: rgba(180,40,40,.85);
+    box-shadow: 0 1px 5px rgb(0 0 0 / 15%);
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+}
+
+.date-time>.time {
+    margin-top: 2em;
+
+}
+
+.date-time {
+    display: inline-block;
+    text-align: center;
+    width: 4.8em;
+    height: 4.8em;
+    padding: .2em;
+    background: #168bb9;
+    color: #fff;
+    border-radius: 8%;
+    position: relative;
+    overflow: hidden;
+    font-size: 1rem;
+}
+
+.events .ji-item-list>.event {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+}
+
+.events .ji-item-list>.event>a .title {
+    margin: .75rem 0 .25rem;
+    height: 1.1rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.events .ji-item-list>.event>a .title:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    height: 1.1rem;
+    width: 10%;
+    box-shadow: inset #fff -3rem 0 2rem -2rem;
+    bottom: 0;
+    right: 0;
+}
+
+.events .event .title {
+    font-size: 1rem;
+    margin: 0;
+    display: block;
+}
+
+.events .ji-item-list>.event>a .teaser {
+    color: #4a5568;
+    font-size: .85rem;
+    height: 3.3rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.events .event .teaser {
+    font-size: .85rem;
+    line-height: 1.1rem;
+}
+
+.event .teaser {
+    position: relative;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.events .ji-item-list>.event>a .teaser:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    height: 1.1rem;
+    width: 25%;
+    box-shadow: inset #fff -6rem 0 3rem -3rem;
+    bottom: 0;
+    right: 0;
+}

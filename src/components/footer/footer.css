@@ -1,0 +1,60 @@
+#footer {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 2rem;
+    background: #1077ad;
+    color: #fff;
+    z-index: 2;
+    float: left;
+    clear: both;
+}
+
+#footer .box {
+    padding: 0;
+}
+
+#footer .area {
+    display: inline-block;
+    vertical-align: top;
+    font-size: .85rem;
+}
+
+.div-mar, .area {
+    padding: 1rem 0;
+}
+
+.div-mar {
+    margin-right: 1.75rem;
+    border-top: solid 2px white;
+}
+
+#footer > .container > .row a {
+    color: #fff;
+}
+
+#footer .area > .div-mar h5 {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+#footer .links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+
+#footer .license-box {
+    float: left;
+    font-size: .85rem;
+    padding-left: 0;
+}
+
+.license-box #creativecommons img {
+    width: 25%;
+    height: 25%;
+}

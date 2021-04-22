@@ -1,0 +1,24 @@
+.slideShow {
+    background-size: cover !important;
+}
+
+.slideShow a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none !important;
+}
+
+.slideShow img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Project_SlideShow {
+    background: #000000 url(../../assets/sliderImages/sliderBG.png) no-repeat center;
+}
+
+div > a > h2, p {
+    text-align: left;
+    color: white !important;
+}

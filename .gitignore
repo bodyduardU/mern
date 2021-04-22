@@ -11,6 +11,13 @@
 # production
 /build
 
+# Helpful Material
+/z. inspectCode.html
+/z. instructions.txt
+
+# Firebase Hosting
+/#Firebase Hosting
+
 # misc
 .DS_Store
 .env.local

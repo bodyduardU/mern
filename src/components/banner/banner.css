@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Georgia;
+    src: url(../../assets/fonts/georgiab.ttf) format("truetype");
+}
+
+
+/* Download Button */
+.btn-primary {
+    background-color: #d24939;
+    border-color: #d24939;
+}
+
+.btn-primary:hover {
+    background-color: #4a5568;
+    border-color: #4a5568;
+}
+
+.ban-text {
+    color: #4a5568 !important;
+    text-align: left;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4em;
+}

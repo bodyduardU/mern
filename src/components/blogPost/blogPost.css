@@ -1,0 +1,118 @@
+.section > .container .row {
+    display: flex;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    background-color: #f9f9f9;
+    margin-right: -15px;
+    margin-left: 0px;
+    padding-top: 3rem;
+    text-align: left;
+    width: 100%;
+}
+
+div > h3.title {
+    margin-bottom: -1rem;
+    color: #4a5568 !important;
+}
+
+
+/* ........... singlePost.css ........... */
+
+
+li.sPost {
+    margin: 0 -2.5rem 1.5rem -2.5rem;
+    padding: 1.3rem;
+    background: #fff;
+}
+
+li.sPost > a.blogBody {
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+
+.header > .date {
+    display: inline-block;
+    position: relative;
+    font-size: .75rem;
+    text-align: center;
+    line-height: 1.2em;
+    border: 1px solid;
+    margin: -.25rem .25rem 0 -2.75rem;
+    vertical-align: middle;
+}
+
+.header > .date > .month {
+    display: inline-block;
+    border-bottom: 1px solid;
+    padding: 0 .2rem;
+    background: #168bb9;
+    color: #fff;
+}
+
+.header > .title {
+    display: inline-block;
+    margin-left: .3rem;
+    vertical-align: middle !important;
+    margin-top: 0 !important;
+    margin-bottom: .5rem;
+    padding: 0;
+}
+
+.header > .title:hover {
+    text-decoration: underline;
+    color: #0056b3 !important;
+}
+
+.blogBody > .header {
+    vertical-align: middle;
+    margin-left: 2.8rem;
+}
+
+
+ul.list-inline li {
+    display: inline-block;
+    padding-right: .5rem;
+}
+
+ul.list-inline a.tag-link {
+    color: #069;
+    font-size: 75%;
+    opacity: .75;
+}
+
+ul.list-inline a.tag-link:hover {
+    color: #0056b3;
+}
+
+.attrs > a {
+    color: #D53730;
+}
+
+p.comma {
+    display: inline-block;
+    color: #D53730 !important;
+    padding-right: 0.3rem;
+    margin: 0;
+}
+
+.sPost>.blogBody>.teaser {
+    max-height: 6rem;
+    overflow: hidden;
+    position: relative;
+    margin: 0 0 .5rem;
+    text-decoration: none;
+    color: #555;
+}
+
+.sPost>.blogBody>.teaser:after, .more {
+    display: block;
+    content: '';
+    box-shadow: inset -25rem 0 15rem -15rem #fff;
+    height: 1.5rem;
+    bottom: 0;
+    right: 0;
+    width: 30rem;
+    position: absolute;
+}
