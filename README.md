@@ -6,7 +6,7 @@ https://assignment-18-c67d2.firebaseapp.com
 
 </br>
 
-This project is cloned using **React.js** and **Bootstrap**. HTML5 is totally replaced with **JSX** and CSS3 is somehow replaced with **JSS** but mostly external CSS is used to make design more attractive and user-friendly.
+This project is cloned using **React.js** and **Bootstrap**. HTML5 is totally replaced with **JSX** and CSS3 is somehow replaced with **JSS** but mostly external CSS is used to make the design more attractive and user-friendly.
 
 In this project, Node Package Manager (**npm**) is used to install different package managers, frameworks and libraries like:
 - Bootstrap
